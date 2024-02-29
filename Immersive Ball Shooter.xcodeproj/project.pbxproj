@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCEC33302B90EE7300966167 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = CCEC332F2B90EE7300966167 /* RealityKitContent */; };
+		CCEC33322B90EE7300966167 /* Immersive_Ball_ShooterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC33312B90EE7300966167 /* Immersive_Ball_ShooterApp.swift */; };
+		CCEC33342B90EE7300966167 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC33332B90EE7300966167 /* ContentView.swift */; };
+		CCEC33362B90EE7300966167 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC33352B90EE7300966167 /* ImmersiveView.swift */; };
+		CCEC33382B90EE7400966167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEC33372B90EE7400966167 /* Assets.xcassets */; };
+		CCEC333B2B90EE7400966167 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEC333A2B90EE7400966167 /* Preview Assets.xcassets */; };
+		CCEC33462B90EE7400966167 /* Immersive_Ball_ShooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC33452B90EE7400966167 /* Immersive_Ball_ShooterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCEC33422B90EE7400966167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEC33222B90EE7200966167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEC33292B90EE7300966167;
+			remoteInfo = "Immersive Ball Shooter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCEC332A2B90EE7300966167 /* Immersive Ball Shooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Immersive Ball Shooter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEC332E2B90EE7300966167 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		CCEC33312B90EE7300966167 /* Immersive_Ball_ShooterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Immersive_Ball_ShooterApp.swift; sourceTree = "<group>"; };
+		CCEC33332B90EE7300966167 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCEC33352B90EE7300966167 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		CCEC33372B90EE7400966167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCEC333A2B90EE7400966167 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCEC333C2B90EE7400966167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEC33412B90EE7400966167 /* Immersive Ball ShooterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Immersive Ball ShooterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEC33452B90EE7400966167 /* Immersive_Ball_ShooterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Immersive_Ball_ShooterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCEC33272B90EE7300966167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEC33302B90EE7300966167 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEC333E2B90EE7400966167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCEC33212B90EE7200966167 = {
+			isa = PBXGroup;
+			children = (
+				CCEC332C2B90EE7300966167 /* Immersive Ball Shooter */,
+				CCEC332D2B90EE7300966167 /* Packages */,
+				CCEC33442B90EE7400966167 /* Immersive Ball ShooterTests */,
+				CCEC332B2B90EE7300966167 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCEC332B2B90EE7300966167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCEC332A2B90EE7300966167 /* Immersive Ball Shooter.app */,
+				CCEC33412B90EE7400966167 /* Immersive Ball ShooterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCEC332C2B90EE7300966167 /* Immersive Ball Shooter */ = {
+			isa = PBXGroup;
+			children = (
+				CCEC33312B90EE7300966167 /* Immersive_Ball_ShooterApp.swift */,
+				CCEC33332B90EE7300966167 /* ContentView.swift */,
+				CCEC33352B90EE7300966167 /* ImmersiveView.swift */,
+				CCEC33372B90EE7400966167 /* Assets.xcassets */,
+				CCEC333C2B90EE7400966167 /* Info.plist */,
+				CCEC33392B90EE7400966167 /* Preview Content */,
+			);
+			path = "Immersive Ball Shooter";
+			sourceTree = "<group>";
+		};
+		CCEC332D2B90EE7300966167 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				CCEC332E2B90EE7300966167 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		CCEC33392B90EE7400966167 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCEC333A2B90EE7400966167 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCEC33442B90EE7400966167 /* Immersive Ball ShooterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCEC33452B90EE7400966167 /* Immersive_Ball_ShooterTests.swift */,
+			);
+			path = "Immersive Ball ShooterTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCEC33292B90EE7300966167 /* Immersive Ball Shooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEC33492B90EE7400966167 /* Build configuration list for PBXNativeTarget "Immersive Ball Shooter" */;
+			buildPhases = (
+				CCEC33262B90EE7300966167 /* Sources */,
+				CCEC33272B90EE7300966167 /* Frameworks */,
+				CCEC33282B90EE7300966167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Immersive Ball Shooter";
+			packageProductDependencies = (
+				CCEC332F2B90EE7300966167 /* RealityKitContent */,
+			);
+			productName = "Immersive Ball Shooter";
+			productReference = CCEC332A2B90EE7300966167 /* Immersive Ball Shooter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCEC33402B90EE7400966167 /* Immersive Ball ShooterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEC334C2B90EE7400966167 /* Build configuration list for PBXNativeTarget "Immersive Ball ShooterTests" */;
+			buildPhases = (
+				CCEC333D2B90EE7400966167 /* Sources */,
+				CCEC333E2B90EE7400966167 /* Frameworks */,
+				CCEC333F2B90EE7400966167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEC33432B90EE7400966167 /* PBXTargetDependency */,
+			);
+			name = "Immersive Ball ShooterTests";
+			productName = "Immersive Ball ShooterTests";
+			productReference = CCEC33412B90EE7400966167 /* Immersive Ball ShooterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCEC33222B90EE7200966167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CCEC33292B90EE7300966167 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CCEC33402B90EE7400966167 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CCEC33292B90EE7300966167;
+					};
+				};
+			};
+			buildConfigurationList = CCEC33252B90EE7200966167 /* Build configuration list for PBXProject "Immersive Ball Shooter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCEC33212B90EE7200966167;
+			productRefGroup = CCEC332B2B90EE7300966167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCEC33292B90EE7300966167 /* Immersive Ball Shooter */,
+				CCEC33402B90EE7400966167 /* Immersive Ball ShooterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCEC33282B90EE7300966167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEC333B2B90EE7400966167 /* Preview Assets.xcassets in Resources */,
+				CCEC33382B90EE7400966167 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEC333F2B90EE7400966167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCEC33262B90EE7300966167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEC33342B90EE7300966167 /* ContentView.swift in Sources */,
+				CCEC33322B90EE7300966167 /* Immersive_Ball_ShooterApp.swift in Sources */,
+				CCEC33362B90EE7300966167 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEC333D2B90EE7400966167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEC33462B90EE7400966167 /* Immersive_Ball_ShooterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCEC33432B90EE7400966167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEC33292B90EE7300966167 /* Immersive Ball Shooter */;
+			targetProxy = CCEC33422B90EE7400966167 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCEC33472B90EE7400966167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		CCEC33482B90EE7400966167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		CCEC334A2B90EE7400966167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Immersive Ball Shooter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "henrylam.Immersive-Ball-Shooter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		CCEC334B2B90EE7400966167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Immersive Ball Shooter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "henrylam.Immersive-Ball-Shooter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		CCEC334D2B90EE7400966167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "henrylam.Immersive-Ball-ShooterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Immersive Ball Shooter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Immersive Ball Shooter";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		CCEC334E2B90EE7400966167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "henrylam.Immersive-Ball-ShooterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Immersive Ball Shooter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Immersive Ball Shooter";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCEC33252B90EE7200966167 /* Build configuration list for PBXProject "Immersive Ball Shooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEC33472B90EE7400966167 /* Debug */,
+				CCEC33482B90EE7400966167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEC33492B90EE7400966167 /* Build configuration list for PBXNativeTarget "Immersive Ball Shooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEC334A2B90EE7400966167 /* Debug */,
+				CCEC334B2B90EE7400966167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEC334C2B90EE7400966167 /* Build configuration list for PBXNativeTarget "Immersive Ball ShooterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEC334D2B90EE7400966167 /* Debug */,
+				CCEC334E2B90EE7400966167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CCEC332F2B90EE7300966167 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CCEC33222B90EE7200966167 /* Project object */;
+}
