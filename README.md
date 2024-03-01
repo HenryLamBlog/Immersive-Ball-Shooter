@@ -21,6 +21,9 @@ Watch the Gameplay Video:
 To play the game, follow these steps:
 
 1. Clone or download the project repository to your local machine.
+  ```bash
+   git clone https://github.com/HenryLamBlog/Immersive-Ball-Shooter.git
+```
 2. Open the project in Xcode.
 3. Build and run the project with AR capabilities on your Apple Vision Pro device.
 4. Follow the on-screen instructions to start playing the game.
