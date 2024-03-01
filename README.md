@@ -1,4 +1,4 @@
-# Immersive Ball Shooter for Vision Pro
+# Immersive Ball Shooter for Apple Vision Pro
 
 Immersive Ball Shooter for Vision Pro is an augmented reality (AR) game that provides an engaging experience for players using RealityKit and SwiftUI.
 
