@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC5760A82B9129E700073AF6 /* CounterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5760A72B9129E700073AF6 /* CounterModel.swift */; };
-		CC5760AA2B912A1600073AF6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5760A92B912A1600073AF6 /* ViewModel.swift */; };
+		CC8325622B91AD5C00CAC454 /* CounterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8325612B91AD5C00CAC454 /* CounterModel.swift */; };
+		CC8325642B91AD9E00CAC454 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8325632B91AD9E00CAC454 /* ContentView.swift */; };
+		CC8325662B91ADBB00CAC454 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8325652B91ADBB00CAC454 /* ViewModel.swift */; };
 		CCEC33302B90EE7300966167 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = CCEC332F2B90EE7300966167 /* RealityKitContent */; };
 		CCEC33322B90EE7300966167 /* Immersive_Ball_ShooterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC33312B90EE7300966167 /* Immersive_Ball_ShooterApp.swift */; };
-		CCEC33342B90EE7300966167 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC33332B90EE7300966167 /* ContentView.swift */; };
 		CCEC33362B90EE7300966167 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC33352B90EE7300966167 /* ImmersiveView.swift */; };
 		CCEC33382B90EE7400966167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEC33372B90EE7400966167 /* Assets.xcassets */; };
 		CCEC333B2B90EE7400966167 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEC333A2B90EE7400966167 /* Preview Assets.xcassets */; };
@@ -29,12 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CC5760A72B9129E700073AF6 /* CounterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CounterModel.swift; path = "../../../../../../Downloads/bubble-shot-main/BubbleShot/CounterModel.swift"; sourceTree = "<group>"; };
-		CC5760A92B912A1600073AF6 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = "../../../../../../Downloads/bubble-shot-main/BubbleShot/ViewModel.swift"; sourceTree = "<group>"; };
+		CC8325612B91AD5C00CAC454 /* CounterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterModel.swift; sourceTree = "<group>"; };
+		CC8325632B91AD9E00CAC454 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC8325652B91ADBB00CAC454 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		CCEC332A2B90EE7300966167 /* Immersive Ball Shooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Immersive Ball Shooter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCEC332E2B90EE7300966167 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		CCEC33312B90EE7300966167 /* Immersive_Ball_ShooterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Immersive_Ball_ShooterApp.swift; sourceTree = "<group>"; };
-		CCEC33332B90EE7300966167 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CCEC33352B90EE7300966167 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		CCEC33372B90EE7400966167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCEC333A2B90EE7400966167 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -85,9 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				CCEC33312B90EE7300966167 /* Immersive_Ball_ShooterApp.swift */,
-				CCEC33332B90EE7300966167 /* ContentView.swift */,
-				CC5760A72B9129E700073AF6 /* CounterModel.swift */,
-				CC5760A92B912A1600073AF6 /* ViewModel.swift */,
+				CC8325612B91AD5C00CAC454 /* CounterModel.swift */,
+				CC8325632B91AD9E00CAC454 /* ContentView.swift */,
+				CC8325652B91ADBB00CAC454 /* ViewModel.swift */,
 				CCEC33352B90EE7300966167 /* ImmersiveView.swift */,
 				CCEC33372B90EE7400966167 /* Assets.xcassets */,
 				CCEC333C2B90EE7400966167 /* Info.plist */,
@@ -223,10 +223,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC5760AA2B912A1600073AF6 /* ViewModel.swift in Sources */,
-				CCEC33342B90EE7300966167 /* ContentView.swift in Sources */,
+				CC8325642B91AD9E00CAC454 /* ContentView.swift in Sources */,
+				CC8325622B91AD5C00CAC454 /* CounterModel.swift in Sources */,
 				CCEC33322B90EE7300966167 /* Immersive_Ball_ShooterApp.swift in Sources */,
-				CC5760A82B9129E700073AF6 /* CounterModel.swift in Sources */,
+				CC8325662B91ADBB00CAC454 /* ViewModel.swift in Sources */,
 				CCEC33362B90EE7300966167 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
