@@ -12,7 +12,7 @@ Immersive Ball Shooter for Vision Pro is an augmented reality (AR) game that pro
 
 ## Gameplay
 
-[![Watch Gameplay Video](https://img.youtube.com/vi/KS_Q6PqjLKY/0.jpg)](https://www.youtube.com/watch?v=KS_Q6PqjLKY)
+[[Watch Gameplay Video](https://img.youtube.com/vi/KS_Q6PqjLKY/0.jpg)](https://www.youtube.com/watch?v=KS_Q6PqjLKY)
 
 
 ## Installation
