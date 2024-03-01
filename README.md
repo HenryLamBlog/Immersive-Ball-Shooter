@@ -10,19 +10,23 @@ Immersive Ball Shooter for Vision Pro is an augmented reality (AR) game that pro
 - **Dynamic Cubes**: Interact with dynamic cubes that move and change color based on user actions.
 - **Scalable Difficulty**: Customize the game settings with options to adjust ball count and time limits.
 
+## Gameplay
+
+[Watch Gameplay Video](https://www.youtube.com/watch?v=KS_Q6PqjLKY)
+
 ## Installation
 
 To play the game, follow these steps:
 
 1. Clone or download the project repository to your local machine.
 2. Open the project in Xcode.
-3. Build and run the project on your iOS device with AR capabilities.
+3. Build and run the project with AR capabilities on your Apple Vision Pro device.
 4. Follow the on-screen instructions to start playing the game.
 
 ## Requirements
 
 - Xcode 12.0 or later
-- iOS device with ARKit support
+- Apple Vision Pro device with ARKit support
 - Swift 5.0 or later
 
 ## Usage
@@ -31,7 +35,8 @@ To play the game, follow these steps:
 2. Follow the setup instructions to configure game settings such as ball count and time limits.
 3. Use spatial gestures to shoot green balls in the AR environment.
 4. Aim to shoot as many balls as possible within the time limit to achieve a high score.
-5. Enjoy the immersive experience and challenge your friends to beat your score!
+5. Don't shoot the wrong colored balls, as they would grow twice as large.
+6. Enjoy the immersive experience and challenge your friends to beat your score!
 
 ## Contributing
 
