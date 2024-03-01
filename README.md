@@ -62,6 +62,6 @@ This project was made possible thanks to the following resources and libraries:
 
 ## Contact
 
-For questions, feedback, or support, please contact the project maintainer at [support@henrylam.blog](mailto:support@henrylam.blog).
+For questions, feedback, or support, please contact me at [support@henrylam.blog](mailto:support@henrylam.blog).
 
 
