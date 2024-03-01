@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "96152B04-0C43-419E-BC83-82263A4EF9B8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D28D7579-E42A-406D-A5F4-CBFB541030D2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../var/folders/0d/5k66vqsn747f4qby90d8mwkm0000gn/T/swift-generated-sources/@__swiftmacro_22Immersive_Ball_Shooter9ViewModelC12soundManager019_71E0A712CA75C08F56H12CB80E5C6200BLL18ObservationTrackedfMp_.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

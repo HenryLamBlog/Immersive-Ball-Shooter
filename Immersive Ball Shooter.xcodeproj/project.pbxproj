@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC5760A82B9129E700073AF6 /* CounterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5760A72B9129E700073AF6 /* CounterModel.swift */; };
+		CC5760AA2B912A1600073AF6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5760A92B912A1600073AF6 /* ViewModel.swift */; };
 		CCEC33302B90EE7300966167 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = CCEC332F2B90EE7300966167 /* RealityKitContent */; };
 		CCEC33322B90EE7300966167 /* Immersive_Ball_ShooterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC33312B90EE7300966167 /* Immersive_Ball_ShooterApp.swift */; };
 		CCEC33342B90EE7300966167 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC33332B90EE7300966167 /* ContentView.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC5760A72B9129E700073AF6 /* CounterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CounterModel.swift; path = "../../../../../../Downloads/bubble-shot-main/BubbleShot/CounterModel.swift"; sourceTree = "<group>"; };
+		CC5760A92B912A1600073AF6 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = "../../../../../../Downloads/bubble-shot-main/BubbleShot/ViewModel.swift"; sourceTree = "<group>"; };
 		CCEC332A2B90EE7300966167 /* Immersive Ball Shooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Immersive Ball Shooter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCEC332E2B90EE7300966167 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		CCEC33312B90EE7300966167 /* Immersive_Ball_ShooterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Immersive_Ball_ShooterApp.swift; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 			children = (
 				CCEC33312B90EE7300966167 /* Immersive_Ball_ShooterApp.swift */,
 				CCEC33332B90EE7300966167 /* ContentView.swift */,
+				CC5760A72B9129E700073AF6 /* CounterModel.swift */,
+				CC5760A92B912A1600073AF6 /* ViewModel.swift */,
 				CCEC33352B90EE7300966167 /* ImmersiveView.swift */,
 				CCEC33372B90EE7400966167 /* Assets.xcassets */,
 				CCEC333C2B90EE7400966167 /* Info.plist */,
@@ -217,8 +223,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5760AA2B912A1600073AF6 /* ViewModel.swift in Sources */,
 				CCEC33342B90EE7300966167 /* ContentView.swift in Sources */,
 				CCEC33322B90EE7300966167 /* Immersive_Ball_ShooterApp.swift in Sources */,
+				CC5760A82B9129E700073AF6 /* CounterModel.swift in Sources */,
 				CCEC33362B90EE7300966167 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
