@@ -41,9 +41,6 @@ Contributions to Immersive Ball Shooter for Vision Pro are welcome! Here are som
 - Suggest new features or enhancements.
 - Fork the repository, make changes, and submit a pull request.
 
-## License
-
-Immersive Ball Shooter for Vision Pro is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
@@ -53,12 +50,8 @@ This project was made possible thanks to the following resources and libraries:
 - SwiftUI
 - RealityKitContent
 
-Special thanks to the developers and contributors who have made these tools available to the community.
-
 ## Contact
 
 For questions, feedback, or support, please contact the project maintainer at [support@henrylam.blog](mailto:support@henrylam.blog).
 
----
 
-**Note:** Immersive Ball Shooter for Vision Pro is a project created for educational and entertainment purposes. It is not affiliated with any existing products or brands.
